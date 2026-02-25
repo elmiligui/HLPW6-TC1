@@ -6,7 +6,7 @@ Participants are requested to submit their results within a folder following the
 Foldername = PID.TC1.TFG.DATASET e.g. 005.TC1.S.01
 
 Where:
-PID = Participant ID, defined in readme from level above
+PID = Participant ID, defined in readme from level above \r\n
 TC1 = Test Case 1
 TFG = Technical Focus Group relevant to the results dataset:
   R = Reynolds-Averaged Navier Stokes (RANS) and grid-adaptive TFG
