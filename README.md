@@ -15,7 +15,7 @@ Where:
    - **A** = Artificial Intelligent (AI) TFG  
 - **DATASET** = Preliminary submission number, these should run sequentially from 01  
 
-The participants are requested to submit several files in their datasets. Example/Template files are provided in this directory. It is requested that all files are provided, where possible. These are tecplot-formatted .dat files. Within each, a description of variables available as a commented header.
+The participants are requested to submit several files in their datasets. Example/Template files are provided in the ["000-Template-Submission"](https://github.com/High-Lift-Prediction-Workshop/HLPW6-TC1/tree/main/000-Template-Submission) folder. It is requested that all files are provided, where possible. These are tecplot-formatted .dat files. Within each, a description of variables available as a commented header.
 
 **XXX\_TC1\_TFG\_DATASET\_FM.dat** =   
 **XXX\_TC1\_TFG\_DATASET\_gridconvergence\_FM.dat** =  
