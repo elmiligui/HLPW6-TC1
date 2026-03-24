@@ -1,0 +1,64 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#   HLPW-6 Force/Moment vs. Alpha DATA SUBMITTAL FORM for Test Case 1, March 3rd 2026, RevNew
+#   Author: DJH, adapted from HLPW-5 submission files
+#
+#       NOMENCLATURE:
+#                  N:   Number of unknowns (grid points for node-centered code, grid cells for cell-centered code)
+#                 CL: Coefficient of lift (total)
+#                 CD: Coefficient of drag (total)
+#                 CM: Coefficient of pitching moment (CMy) about moment reference center (MRC) (total)
+#                 DT:   nondimensional time step if run time-accurately (dt*U_freestream/MAC);
+#                         enter -1 if run in steady-state mode (non-time-accurately)
+#             TSTART:   if run time-accurately and averaged in time, this is the starting time when time-averaging
+#                       began = (time after run initiation)*U_freestream/MAC
+#               TAVG:   if run time-accurately and averaged in time, this is the averaging time =
+#                       (averaging time)*U_freestream/MAC
+#        The next four variables are optional, dependent on solver capability to output
+#                CLp:   pressure component of lift coefficient
+#                CLv:   viscous component of lift coefficient
+#                CDp:   pressure component of drag coefficient
+#                CDv:   viscous component of drag coefficient
+#
+#                MAC:   Mean aerodynamic chord = 30 inches
+#                MRC:   x = 34.8082 inches, y = 0.0 inches, z = 0 inches
+#
+#                XXX:   Participant ID (assigned by HLPW committee); e.g., 001, 020, 147
+#                TFG:   TFG the submission should fall under (e.g. R, S, A, H)
+#            DATASET:   Sequential number, should start at 01 for each participant and TFG
+
+#    E.g. TITLE field could be: 001_TC1_S_20 for the 20th submission by participant 1 to the scale resolving TFG
+#
+#    FLOW CONDITIONS:
+#            Angles of Attack: 10, 15, 20, 25, 30, 35 deg
+#                 Mach Number: 0.20
+#             Reynolds Number: 3.55 million (based on MAC)
+#             Freestream Temp: 518.67 R
+#
+#              NOTES: 1. All numerical data fields can be free-formatted
+#                     2. Please use at least 5 decimal places in the numerical values for CL CD CM
+#                     3. If data are NOT provided, please fill data fields with a numerical value of "-999" 
+#                     4. If not converged to steady-state (i.e., if run with a scale-resolving simulation
+#                        or run time-accurately), give mean values of CL, CD, and CM
+#
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TITLE = "XXX_TC1_TFG_DATASET"
+#                                                           <----- Optional ----->
+VARIABLES = "ALPHA" "N" "CL" "CD" "CM" "DT" "TSTART" "TAVG" "CLp" "CLv" "CDp" "CDv"
+
+# Include one zone for each grid in the family that you are reporting (label them appropriately by
+# changing, e.g., "NAMED GRID 1" to a description of the grid used (such as "GRID 2.R.02 R LEVEL")
+# and include the word NOMINAL next to the result you feel is "best")
+
+ZONE T="006 TC1, charLES Level 11 Grid"
+0 307027209 0.495448572 0.068452374 -0.148283566 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+5 307027210 0.912926414 0.105107662 -0.14049958 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+10 307027211 1.241148218 0.153091162 -0.113300797 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+15 307027212 1.551291389 0.213485568 -0.085339809 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+20 307027213 1.844408645 0.286801224 -0.06812854 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+25 307027214 2.090237516 0.363864415 -0.043889661 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+30 307027215 2.210427785 0.429339672 0.004613533 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+31 307027216 2.128607635 0.454369704 0.0459025 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+32 307027217 1.944895936 0.512571742 0.075742142 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+35 307027218 1.629495282 0.599856901 0.097472618 3.00E-07 0.223925 0.112075 -1 -1 -1 -1
+
