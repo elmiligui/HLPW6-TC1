@@ -15,17 +15,17 @@ Additionally, participants should revise the Readme.md (this file) within their 
 # PARTICIPANT INFO:
 
 # Name(s) and Organization(s):
-Insert name(s) and corresponding organization(s) here
-Hidemasa Yasuda (KHI)
-Yuta Sawaki (KHI)
+Insert name(s) and corresponding organization(s) here  
+Hidemasa Yasuda (KHI)  
+Yuta Sawaki (KHI)  
 Hiroyoshi Asano (KHI)
 
 ## Primary Email:  
-Insert point of contact (POC) email here
+Insert point of contact (POC) email here  
 yasuda_hidemasa@global.kawasaki.com
 
 ## Primary Phone:  
-Insert POC phone here
+Insert POC phone here  
 +81-58-382-5346
 
 ## Address:  
