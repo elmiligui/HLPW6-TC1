@@ -1,6 +1,6 @@
 # High Lift Prediction Workshop 6 - Template Submission Files
 
-This folder contains four files participants are expected to modify and submit for Test Case 1:
+This folder contains No.1. and 3. files of the followings:
 
 1. **FM.dat** = Converged or time-averaged Force and Moment data vs. angle of attack, multiple grid levels may be included
    - N.B.: append grid descriptor if providing results for multiple grids
@@ -15,39 +15,39 @@ Additionally, participants should revise the Readme.md (this file) within their 
 # PARTICIPANT INFO:
 
 # Name(s) and Organization(s):
-Insert name(s) and corresponding organization(s) here  
 Hidemasa Yasuda (KHI)  
 Yuta Sawaki (KHI)  
 Hiroyoshi Asano (KHI)
 
 ## Primary Email:  
-Insert point of contact (POC) email here  
 yasuda_hidemasa@global.kawasaki.com
 
 ## Primary Phone:  
-Insert POC phone here  
 +81-58-382-5346
 
 ## Address:  
-Insert POC address here
+1.Kawasaki-Cho, Kakamigahara City, Gifu-Pref. 504-8710 Japan  
  
 # SOLVER INFORMATION:
 
 ## Solver Name and Version:
-Insert solver name and version here
-cflow-solv.5.10.12
+Cflow, cflow-solv.5.10.12
 
 ## Basic Algorithm:  
-Insert relevant details about algorithm here
+Unstructured Navier-Stokes solver, Cell-centered finite volume method  
 
 ## Turbulence Model:  
-Insert details about turbulence model here (if applicable)
+SA-neg  
 
 ## Transition Method:
-Insert details about transition model or method (if applicable)
+none (fully turbulent)  
 
 ## Convergence Criteria:
-Insert convergence criteria here (if applicable)
+Eyeball and Cflow method (*)  
+(*) Based on the gradient of CL and CD.  
+CL does not change 0.01 within 2FT, CD does not change 0.001 within 2 FT.  
+FT=2 Flow Through MAC based on averaged time step.  
+(Some cases does not satisfy this criteria in this version.)  
 
 ## Miscellaneous:  
 Insert any other information about the code/solver here
@@ -55,7 +55,7 @@ Insert any other information about the code/solver here
 # Test Case 1 GRID & SOLUTION INFO (CRM-HLS)
 
 ## Name of committee-supplied grid used (if other, supply the info below):
-Insert name of committee-supplied grid here
+Nothing  
 
 
 For non-committee grids...
