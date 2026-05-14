@@ -1,0 +1,86 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+#   HLPW-6 Force/Moment Grid Convergence DATA SUBMITTAL FORM for Test Case 1, March 3rd 2026, RevNew
+#   Author: DJH, adapted from HLPW-5 submission files
+#
+#
+#       NOMENCLATURE:
+#                  N:   Number of unknowns (grid points for node-centered code, grid cells for cell-centered code)
+#                 CL:	Coefficient of lift (total)
+#                 CD:	Coefficient of drag (total)
+#                 CM:	Coefficient of pitching moment (CMy) about moment reference center (MRC) (total)
+#                 DT:   nondimensional time step if run time-accurately (dt*U_freestream/MAC);
+#                         enter -1 if run in steady-state mode (non-time-accurately)
+#             TSTART:   if run time-accurately and averaged in time, this is the starting time when time-averaging
+#                       began = (time after run initiation)*U_freestream/MAC
+#               TAVG:   if run time-accurately and averaged in time, this is the averaging time =
+#                       (averaging time)*U_freestream/MAC
+#        The next four variables are optional, dependent on solver capability to output
+#                CLp:   pressure component of lift coefficient
+#                CLv:   viscous component of lift coefficient
+#                CDp:   pressure component of drag coefficient
+#                CDv:   viscous component of drag coefficient
+#
+#                MAC:   Mean aerodynamic chord = 30 inches
+#                MRC:   x = 34.8082 inches, y = 0.0 inches, z = 0 inches
+#
+#                XXX:   Participant ID (assigned by HLPW committee); e.g., 001, 020, 147
+#                TFG:   TFG the submission should fall under (e.g. R, S, A, H)
+#            DATASET:   Sequential number, should start at 01 for each participant and TFG
+
+#    E.g. TITLE field could be: 001_TC1_S_20 for the 20th submission by participant 1 to the scale resolving TFG
+#
+#    FLOW CONDITIONS:
+#            Angles of Attack: 10, 15, 20, 25, 30, 35 deg
+#                 Mach Number: 0.20
+#             Reynolds Number: 3.55 million (based on MAC)
+#             Freestream Temp: 518.67 R
+#
+#              NOTES: 1. All numerical data fields can be free-formatted
+#                     2. Please use at least 5 decimal places in the numerical values for CL CD CM
+#                     3. If data are NOT provided, please fill data fields with a numerical value of "-999" 
+#                     4. If not converged to steady-state (i.e., if run with a scale-resolving simulation
+#                        or run time-accurately), give mean values of CL, CD, and CM
+#
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TITLE = "XXX_TC1_TFG_DATASET"
+
+#                                                   <------ Optional ----->
+VARIABLES = "N" "CL" "CD" "CM"  
+
+# IF YOU DID NOT PERFORM GRID CONVERGENCE STUDY FOR ANY OF THE AOAs, THEN DELETE THAT SECTION
+
+# The following section is for AoA = 10 deg:
+ZONE T="022 TC1 <greek>a<\greek> = 10<math>0<\math>, grid convergence"
+
+463400 1.1105518605 0.1472297447 -0.0733403089
+456399 1.1356082339 0.1476890654 -0.0816694148
+453068 1.1511103223 0.1486703477 -0.0861077021
+450180 1.1562559191 0.1494672128 -0.0872790344
+848801 1.2069498443 0.1521956535 -0.1002656064
+864027 1.2107353154 0.1521201016 -0.1017199445
+865940 1.2109069337 0.1523247962 -0.1013849168
+867377 1.2073503195 0.1520118603 -0.1006700928
+2070500 1.2274770007 0.1530240789 -0.1062792701
+2107198 1.2271976048 0.1529706785 -0.1066650801
+2109046 1.2261839149 0.1528846987 -0.1063255235
+2112220 1.2259428026 0.1529241558 -0.1061069165
+4116365 1.2332351239 0.1537869263 -0.1076807864
+4164392 1.2330909858 0.1538945061 -0.1079289785
+4171700 1.2328167220 0.1540346818 -0.1077372391
+4173833 1.2330134491 0.1540688267 -0.1079250956
+8159762 1.2385029594 0.1547612914 -0.1099427452
+8243641 1.2384009778 0.1547112989 -0.1099977015
+8235702 1.2380379691 0.1546591788 -0.1099050004
+8237803 1.2380733160 0.1546943283 -0.1099788112
+20015610 1.2410602011 0.1551016947 -0.1108130303
+20297498 1.2411582687 0.1551149401 -0.1108192787
+20266874 1.2412637104 0.1551230517 -0.1109501958
+20270635 1.2412034085 0.1551152035 -0.1109640184
+39794174 1.2424955395 0.1553338029 -0.1113820240
+40175940 1.2427131241 0.1553642605 -0.1114715248
+40135535 1.2427060868 0.1553518419 -0.1115298421
+40140095 1.2428358888 0.1553826292 -0.1115589301
+78972710 1.2435946267 0.1555171773 -0.1117670909
+                                                           
