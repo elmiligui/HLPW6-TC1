@@ -9,4 +9,4 @@ Dataset: FM, gridconvergence_FM, FlowViz (B,C,D,E)(\*)
 
 ## 017_TC1_R_02
 Date: 2026/5/26  
-Note: FlowViz/view6 images has been added.  
+Note: FlowViz/View6 images have been added. (Only updated files are included.)  
