@@ -30,6 +30,7 @@ Insert POC address here
 
 ## Solver Name and Version:
 Insert solver name and version here
+
 charLES
 
 ## Basic Algorithm:  
@@ -37,6 +38,7 @@ Insert relevant details about algorithm here
 
 ## Turbulence Model:  
 Insert details about turbulence model here (if applicable)
+
 Building-Block Flow Model (BFM) Version 1
 
 ## Transition Method:
@@ -57,10 +59,12 @@ Insert name of committee-supplied grid here
 For non-committee grids...
 ## Grid-Generator Name and Version:  
 Insert grid generator name and version here
+
 Stitch
 
 ## Type (str, overset, unstr, etc):  
 Insert grid type here
+
 Unstructured
 
 ## Number of Total Nodes:  
@@ -68,6 +72,7 @@ Insert number of nodes here (multiple lines if grid convergence study was done)
 
 ## Number of Total Cells:
 Insert number of cells here (multiple lines if grid convergence study was done)
+
 307027209
 
 ## Miscellaneous:  
