@@ -1,7 +1,3 @@
-# High Lift Prediction Workshop 6 
-
-# PARTICIPANT INFO:
-
 # Name(s) and Organization(s):
 - Eduardo Molina - Embraer
 - Mauro Lopez - Embraer
