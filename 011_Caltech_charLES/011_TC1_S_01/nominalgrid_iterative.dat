@@ -26,7 +26,7 @@
 #    E.g. TITLE field could be: 001_TC1_S_20 for the 20th submission by participant 1 to the scale resolving TFG
 #
 #    FLOW CONDITIONS:
-#            Angles of Attack: 10, 15, 20, 25, 30, 35 deg
+#            Angles of Attack: 10, 15, 20, 25, 30, 31, 32, 35 deg
 #                 Mach Number: 0.20
 #             Reynolds Number: 3.55 million (based on MAC)
 #             Freestream Temp: 518.67 R
