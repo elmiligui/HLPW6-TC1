@@ -16,7 +16,7 @@ Additionally, participants should revise the Readme.md (this file) within their 
 
 # Name(s) and Organization(s):
 Z.J. Wang - University of Kansas
-AVery Hantla - University of Kansas
+Avery Hantla - University of Kansas
 
 ## Primary Email:  
 zjw@ku.edu  
