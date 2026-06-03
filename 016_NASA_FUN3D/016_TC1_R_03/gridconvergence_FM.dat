@@ -1,0 +1,82 @@
+#======================================================================================================================================================
+#   HLPW-6 Force/Moment Grid Convergence DATA SUBMITTAL FORM for Test Case 1
+#   Generated automatically from CFD results
+#
+#       NOMENCLATURE:
+#                  N:   Number of unknowns (grid points for node-centered code, grid cells for cell-centered code)
+#                 CL:   Coefficient of lift (total)
+#                 CD:   Coefficient of drag (total)
+#                 CM:   Coefficient of pitching moment (CMy) about moment reference center (MRC) (total)
+#                 DT:   nondimensional time step if run time-accurately (dt*U_freestream/MAC);
+#                       enter -1 if run in steady-state mode (non-time-accurately)
+#             TSTART:   if run time-accurately and averaged in time, this is the starting time when time-averaging
+#                       began = (time after run initiation)*U_freestream/MAC
+#               TAVG:   if run time-accurately and averaged in time, this is the averaging time =
+#                       (averaging time)*U_freestream/MAC
+#        The next four variables are optional, dependent on solver capability to output
+#                CLp:   pressure component of lift coefficient
+#                CLv:   viscous component of lift coefficient
+#                CDp:   pressure component of drag coefficient
+#                CDv:   viscous component of drag coefficient
+#
+#======================================================================================================================================================
+
+TITLE = "016_TC1_R_03"
+
+VARIABLES = "N" "CL" "CD" "CM" "DT" "TSTART" "TAVG"
+
+# The following section is for AoA = 10 deg:
+ZONE T="016 TC1 <greek>a</greek> = 10<math>0</math>, grid convergence"
+# Supply as many lines as grid levels run:
+   1113311    1.1853545030  0.1551160568 -0.1009235416       -1   -999   -999
+   1948002    1.2048180190  0.1551514119 -0.1081684767       -1   -999   -999
+   6145527    1.2221621740  0.1558704956 -0.1106428359       -1   -999   -999
+  11900160    1.2342775910  0.1563680962 -0.1106766162       -1   -999   -999
+  30840679    1.2413201310  0.1559960218 -0.1123439666       -1   -999   -999
+
+# The following section is for AoA = 15 deg:
+ZONE T="016 TC1 <greek>a</greek> = 15<math>0</math>, grid convergence"
+# Supply as many lines as grid levels run:
+   1113311    1.4822230160  0.2151999937 -0.0682230678       -1   -999   -999
+   1948002    1.5073770930  0.2149120959 -0.0765851556       -1   -999   -999
+   6145527    1.5287676780  0.2162850412 -0.0798565067       -1   -999   -999
+  11900160    1.5457231520  0.2171540306 -0.0818087497       -1   -999   -999
+  30840679    1.5531017140  0.2160715990 -0.0827648824       -1   -999   -999
+
+# The following section is for AoA = 20 deg:
+ZONE T="016 TC1 <greek>a</greek> = 20<math>0</math>, grid convergence"
+# Supply as many lines as grid levels run:
+   1113311    1.7842325000  0.2935533856 -0.0521772040       -1   -999   -999
+   1948002    1.8093672080  0.2921538270 -0.0635851626       -1   -999   -999
+   6145527    1.8316997110  0.2931934293 -0.0652602877       -1   -999   -999
+  11900160    1.8507534560  0.2936589474 -0.0694225383       -1   -999   -999
+  30840679    1.8611928420  0.2926561695 -0.0697665871       -1   -999   -999
+
+# The following section is for AoA = 25 deg:
+ZONE T="016 TC1 <greek>a</greek> = 25<math>0</math>, grid convergence"
+# Supply as many lines as grid levels run:
+   1113311    1.8655205860  0.3952177293 -0.0013490710       -1   -999   -999
+   1948002    2.0704578720  0.3769651859 -0.0517584987       -1   -999   -999
+   6145527    2.1005018330  0.3777356263 -0.0512748441       -1   -999   -999
+  11900160    2.1241974920  0.3789210239 -0.0578636184       -1   -999   -999
+  30840679    2.1326839640  0.3762995025 -0.0577448422       -1   -999   -999
+
+# The following section is for AoA = 30 deg:
+ZONE T="016 TC1 <greek>a</greek> = 30<math>0</math>, grid convergence"
+# Supply as many lines as grid levels run:
+   1113311    1.9489114830  0.4826508461  0.0281963004       -1   -999   -999
+   1948002    1.9687765570  0.4785148873 -0.0285011466       -1   -999   -999
+   6145527    1.9864875640  0.4783591225 -0.0251001581       -1   -999   -999
+  11900160    1.9566644250  0.4793789309  0.0230636628       -1   -999   -999
+  30840679    1.9480664680  0.4736536795  0.0276832126       -1   -999   -999
+
+# The following section is for AoA = 35 deg:
+ZONE T="016 TC1 <greek>a</greek> = 35<math>0</math>, grid convergence"
+# Supply as many lines as grid levels run:
+   1113311    1.8017690960  0.5860685556  0.1226077442       -1   -999   -999
+   1948002    1.7643840520  0.5973007220  0.1134008312       -1   -999   -999
+   6145527    1.7740540620  0.5918719229  0.1175664478       -1   -999   -999
+  11900160    1.7147046020  0.5950275813  0.1046447760       -1   -999   -999
+  30840679    1.6758632810  0.5974506781  0.1006603693       -1   -999   -999
+
+# If grid convergence study is performed for other AoAs, add new sections below

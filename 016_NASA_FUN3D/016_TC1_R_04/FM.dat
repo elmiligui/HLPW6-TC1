@@ -1,0 +1,66 @@
+#=======================================================================================================================
+#   HLPW-6 Force/Moment vs. Alpha DATA SUBMITTAL FORM for Test Case 1
+#   Generated automatically from CFD results
+#
+#       NOMENCLATURE:
+#                  N:   Number of unknowns (grid points for node-centered code, grid cells for cell-centered code)
+#                 CL:   Coefficient of lift (total)
+#                 CD:   Coefficient of drag (total)
+#                 CM:   Coefficient of pitching moment (CMy) about moment reference center (MRC) (total)
+#                 DT:   nondimensional time step if run time-accurately (dt*U_freestream/MAC);
+#                       enter -1 if run in steady-state mode (non-time-accurately)
+#             TSTART:   if run time-accurately and averaged in time, this is the starting time when time-averaging
+#                       began = (time after run initiation)*U_freestream/MAC
+#               TAVG:   if run time-accurately and averaged in time, this is the averaging time =
+#                       (averaging time)*U_freestream/MAC
+#        The next four variables are optional, dependent on solver capability to output
+#                CLp:   pressure component of lift coefficient
+#                CLv:   viscous component of lift coefficient
+#                CDp:   pressure component of drag coefficient
+#                CDv:   viscous component of drag coefficient
+#
+#=======================================================================================================================
+
+TITLE = "XXX_TC1_TFG_04"
+VARIABLES = "ALPHA" "N" "CL" "CD" "CM" "DT" "TSTART" "TAVG"
+
+ZONE T="016 TC1, GRID R.1.TC1.02 LEVEL A"
+  10.0      1113311    1.1847572070  0.1550260634 -0.1005270982       -1   -999   -999
+  15.0      1113311    1.4815050590  0.2148691034 -0.0673060780       -1   -999   -999
+  20.0      1113311    1.7835784250  0.2933433528 -0.0515075213       -1   -999   -999
+  25.0      1113311    1.7944883650  0.3933046886  0.0098908635       -1   -999   -999
+  30.0      1113311    1.7944883650  0.3933046886  0.0098908635       -1   -999   -999
+  35.0      1113311    1.7774630330  0.5871225168  0.1204489130       -1   -999   -999
+
+ZONE T="016 TC1, GRID R.1.TC1.02 LEVEL B"
+  10.0      1948002    1.2038210110  0.1551079660 -0.1073739767       -1   -999   -999
+  15.0      1948002    1.5082175590  0.2152631385 -0.0771290441       -1   -999   -999
+  20.0      1948002    1.6630363200  0.3103429143 -0.0341731955       -1   -999   -999
+  25.0      1948002    1.7891062660  0.3843985715 -0.0320091572       -1   -999   -999
+  30.0      1948002    1.9412791490  0.4800076936  0.0177948135       -1   -999   -999
+  35.0      1948002    1.7610262890  0.5978846541  0.1123277957       -1   -999   -999
+
+ZONE T="016 TC1, GRID R.1.TC1.02 LEVEL C"
+  10.0      4605475    1.2212514820  0.1557065379 -0.1100352323       -1   -999   -999
+  15.0      4605475    1.5289237550  0.2163184504 -0.0799349562       -1   -999   -999
+  20.0      4605475    1.6698716260  0.3119411232 -0.0325179118       -1   -999   -999
+  25.0      4605475    1.9070994280  0.3940136854 -0.0101458032       -1   -999   -999
+  30.0      4605475    2.0804879760  0.4795604183  0.0131674330       -1   -999   -999
+  35.0      4605475    1.7671946420  0.5924953582  0.1164967662       -1   -999   -999
+
+ZONE T="016 TC1, GRID R.1.TC1.02 LEVEL D"
+  10.0      9953907    1.2341857700  0.1563083652 -0.1106574718       -1   -999   -999
+  15.0      9953907    1.5454817220  0.2170844046 -0.0818976685       -1   -999   -999
+  20.0      9953907    1.6818752150  0.3129296411 -0.0350626832       -1   -999   -999
+  25.0      9953907    1.9214184610  0.3951889470 -0.0135704546       -1   -999   -999
+  30.0      9953907    1.9435970680  0.4773373829  0.0244728439       -1   -999   -999
+  35.0      9953907    1.7152095750  0.5952565152  0.1048680350       -1   -999   -999
+
+ZONE T="016 TC1, NOMINAL, GRID R.1.TC1.02 LEVEL E"
+  10.0      30840679    1.2412982450  0.1560007627 -0.1123378135       -1   -999   -999
+  15.0      30840679    1.5542874200  0.2162539685 -0.0832614328       -1   -999   -999
+  20.0      30840679    1.6804253340  0.3101984457 -0.0305424828       -1   -999   -999
+  25.0      30840679    1.9111725840  0.3896984739 -0.0062335972       -1   -999   -999
+  30.0      30840679    1.8626902210  0.4662375325  0.0226823583       -1   -999   -999
+  35.0      30840679    1.6433187140  0.5997594634  0.0920642670       -1   -999   -999
+
